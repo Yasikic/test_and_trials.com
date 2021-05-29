@@ -1,37 +1,3 @@
-
-/*
-function createColorBox(ID) {
-    lineID = 'line-' + ID;
-    spanID = 'box-' + ID;
-
-    // Prepate variables
-    const line = document.getElementById(lineID); // Get line inside colors menu
-    const span = document.getElementById(spanID); // Get span for color box
-
-    // Set color for box
-    const color = line.textContent; // Get color hex code
-    const bckgColor = 'background: ' + color + ';'; // Prepare box style
-
-    // Apply the style
-    span.style = bckgColor;
-    span.innerHTML = '&nbsp;'
-  }
-
-function doAll(){
-
-  const li = document.getElementsByClassName('box');
-
-  var rowName = [];
-  for (let i = 0; i < li.length; i++) {
-    let a = i+1
-    let span = li[i].getElementsByTagName('span')[0];
-    rowName.push(a);
-    li[i].id = 'line-' + rowName[i]; // Add IDs to line tags
-    span.id = 'box-' + rowName[i];   // Add IDs to span tag
-    createColorBox(a)
-  }
-} */
-
 function myFunction() {
 
    function toggleClass(element, className){
