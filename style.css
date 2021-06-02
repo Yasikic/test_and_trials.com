@@ -573,12 +573,12 @@ footer p{
   border-radius: 20px;
   height: 35px;
   width: 70px;
-  background: url("sunil-gc-kvKt3l5IseI-unsplash.jpg") no-repeat right top;
+  background: url("day.jpg") no-repeat right top;
   background-size: cover;
 }
 
 input:checked + .day-night {
-  background: url("alan-chen-Ekl9AXrY5-0-unsplash.jpg") no-repeat right top;
+  background: url("night.jpg") no-repeat right top;
   background-size: cover;
 }
 
