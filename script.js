@@ -31,5 +31,4 @@ function myFunction() {
    toggleClass(iconsFar, "dark-icons");
    toggleClass(date, "dark-icons");
    toggleClass(iconsFab, "dark-icons");
-
 }
